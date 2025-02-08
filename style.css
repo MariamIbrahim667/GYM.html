@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+        url('fb-how-to-choose-best-gym-df5cc5ef4c2042a89d3ec71562dda73c.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+/* Transparent Form Container */
+.container {
+    background: rgba(233, 229, 229, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    width: 350px;
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.input-container i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="email"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    background: none;
+}
+/* Form Header */
+.login-form h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #007bff;
+}
+
+.login-form p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #3f3e3e;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Labels */
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input Containers */
+.input-container {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.input-container i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    background: none;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit Button */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Signup Link */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #a58383;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Extra Enhancements */
+input:focus {
+    border: 1px solid #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
